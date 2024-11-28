@@ -6,9 +6,12 @@ body{
     margin: 0px;
 }
 
-td {
-    border: 1px solid black;
-    padding: 5px;
+tr {
+    border: 1px solid steelblue;
+}
+
+td{
+    height: 35px;
 }
 
 table {
@@ -71,6 +74,7 @@ th {
 
 .table-option {
     margin: 0px;
+    color : steelblue;
 }
 
 .table-desc {
@@ -82,4 +86,29 @@ th {
     background-color: white;
     border: 1px solid skyblue;
     border-radius: 7px;
+}
+
+.purchase-button {
+    padding: 15px;
+    background-color: steelblue;
+    
+    border-radius: 10px;
+    color: white;
+    
+    border: 0px;
+    
+    float: right;
+}
+
+.account-value {
+    color : steelblue;
+}
+
+.price-value {
+    color: steelblue;
+}
+
+.total-value {
+    text-align: right;
+    color: blue;
 }
